@@ -24,6 +24,7 @@ Aprender a:
 ## Funcionamiento general
 
 ### Servidor
+
 El servidor:
 - escucha en `localhost:5000`
 - acepta conexiones entrantes
@@ -32,6 +33,7 @@ El servidor:
 - responde con la fecha y hora en la que recibió el mensaje
 
 ### Cliente
+
 El cliente:
 - se conecta al servidor
 - permite enviar múltiples mensajes
@@ -49,22 +51,28 @@ Se utiliza SQLite y se crea una tabla llamada `mensajes` con los siguientes camp
 ## Cómo ejecutar el proyecto
 
 ### 1. Ejecutar el servidor
-```bash
+
+\`\`\`bash
 python server.py
+\`\`\`
 
 ### 2. Ejecutar el cliente en otra terminal
-```bash
-python client.py
 
-### Ejemplo de uso
+\`\`\`bash
+python client.py
+\`\`\`
+
+## Ejemplo de uso
 
 Cliente:
 
+\`\`\`text
 Conectado al servidor.
 Escribí tus mensajes. Para salir, escribí 'éxito'.
 Ingresá un mensaje: Hola
 Respuesta del servidor: Mensaje recibido: 2026-04-17 15:10:20
+\`\`\`
 
-### Validaciones agregadas
+## Validaciones agregadas
 
-Si el usuario envía un mensaje vacío, el servidor responde que no se puede enviar un mensaje vacío
+- Si el usuario envía un mensaje vacío, el servidor responde que no se puede enviar un mensaje vacío.
