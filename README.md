@@ -54,23 +54,24 @@ Se utiliza SQLite y se crea una tabla llamada `mensajes` con los siguientes camp
 
 ```bash
 python server.py
-
+\`\`\`
 
 ### 2. Ejecutar el cliente en otra terminal
 
 ```bash
 python server.py
+\`\`\`
 
 ## Ejemplo de uso
 
 Cliente:
 
-
+```text
 Conectado al servidor.
 Escribí tus mensajes. Para salir, escribí 'éxito'.
 Ingresá un mensaje: Hola
 Respuesta del servidor: Mensaje recibido: 2026-04-17 15:10:20
-
+\`\`\`
 
 ## Validaciones agregadas
 
